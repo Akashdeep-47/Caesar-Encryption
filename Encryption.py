@@ -12,7 +12,7 @@ def caesar(text, shift, alphabets):
     return text.translate(table)
 
 
-plain_text = input("Enter the words/sentence to encrypt : \n")
+input_text = input("Enter the words/sentence to encrypt : \n")
 print("\n")
 print("Here! your encrypted word/senetence : ")
-print(caesar(plain_text, 8, [string.ascii_lowercase, string.ascii_uppercase, string.punctuation]))
+print(caesar(input_text, 8, [string.ascii_lowercase, string.ascii_uppercase, string.punctuation]))
