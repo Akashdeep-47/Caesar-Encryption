@@ -17,7 +17,7 @@ In cryptography, a Caesar cipher, also known as Caesar's cipher, the shift ciphe
  ```
  cd Caesar-Encryption
  ```
- 3. Now for running the Game
+ 3. Now for running the Script
  ```
  python Encryption.py
  ```
